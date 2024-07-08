@@ -14,7 +14,10 @@ st.set_page_config(layout="wide")
 # importer et mettre en cache le df
 @st.cache_data
 def load_data():
-    return pd.read_csv("df_final_Monty_streamlit.csv") 
+    d1 = pd.read_csv("df_part1.csv")
+    d2 = pd.read_csv("df_part2.csv")
+    df_final_Monty_streamlit = pd.concat([d1, d2])
+    return  df_final_Monty_streamlit 
 
 df = load_data()
 

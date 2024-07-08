@@ -35,7 +35,7 @@ if options == 'Présentation':
     st.header("L'équipe des Monty est fière de vous présenter son projet d'étude avec la Wild Code School.")
     st.write(" ")
     #st.image("Images\Monty_team.jpg", use_column_width="auto", caption="Monty Python and the Holy Grail (1975)")
-    st.image(".\Images\Monty_team.jpg", use_column_width="auto", caption="Monty Python and the Holy Grail (1975)")
+    st.image("./Images/Monty_team.jpg", use_column_width="auto", caption="Monty Python and the Holy Grail (1975)")
     st.write(" ")
 
 
